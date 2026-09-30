@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: hadufer.ClaudeCodeUsageMonitor
-PackageVersion: 1.7.0
+PackageVersion: 1.7.1
 PackageLocale: en-US
 Publisher: Hassan Dufer
 PublisherUrl: https://github.com/hadufer
@@ -20,7 +20,7 @@ Description: |-
   opens a panel with every limit, including the per-model weekly one, its exact
   reset time and a warning when the limit would arrive before the reset at the
   current rate. Codex and Antigravity usage can be shown alongside Claude Code.
-  Renamed AI Usage Monitor and now published as hadufer.AIUsageMonitor; this copy moves itself there on its next update from the tray menu.
+  Renamed AI Usage Monitor and published as hadufer.AIUsageMonitor from now on; from this version the app keeps itself current from its GitHub releases, whichever identifier installed it.
 Tags:
 - antigravity
 - claude
@@ -29,6 +29,6 @@ Tags:
 - taskbar
 - tray
 - usage
-ReleaseNotesUrl: https://github.com/hadufer/ai-usage-monitor/releases/tag/v1.7.0
+ReleaseNotesUrl: https://github.com/hadufer/ai-usage-monitor/releases/tag/v1.7.1
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
