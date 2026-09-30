@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: hadufer.AIUsageMonitor
-PackageVersion: 1.7.1
+PackageVersion: 1.7.2
 InstallerType: portable
 Commands:
 - ai-usage-monitor
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/hadufer/ai-usage-monitor/releases/download/v1.7.1/ai-usage-monitor.exe
-  InstallerSha256: FF876EB4EE9565190A84FAE87AE9862E558DF5DE69663B7783A1215A1DED0593
+  InstallerUrl: https://github.com/hadufer/ai-usage-monitor/releases/download/v1.7.2/ai-usage-monitor.exe
+  InstallerSha256: 5A72264EF1BB5AE5F2547106224A1B2F3653EDD7FD340E33BC2ADF15EEDBC2C7
 ManifestType: installer
 ManifestVersion: 1.12.0
 ReleaseDate: 2026-09-30
